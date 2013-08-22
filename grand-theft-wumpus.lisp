@@ -1,8 +1,9 @@
-(load "graph-util.lisp")
+(load "graph-util") ; Only clisp can execute graph-util
 
 (defparameter *congestion-city-nodes* nil)
 (defparameter *congestion-city-edges* nil)
 (defparameter *visited-nodes* nil)
+(defparameter *player-pos* nil)
 (defparameter *node-num* 30)
 (defparameter *edge-num* 45)
 (defparameter *worm-num* 3)

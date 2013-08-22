@@ -1,3 +1,10 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;
+;; Only clisp can execute graph-util
+;; Using shell command by 'ext:' in dot->png function
+;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ; test data
 ;(defparameter *wizard-nodes* '((living-room (you are in the living room. a wizard is snoring loudly on the couch.))
 ;			       (garden (you are in a beautiful garden. there is a well in front of you.))
